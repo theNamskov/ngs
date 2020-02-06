@@ -1,1 +1,1 @@
-console.log('Pluralsight rocks');
+console.log('Logging with node :)');
