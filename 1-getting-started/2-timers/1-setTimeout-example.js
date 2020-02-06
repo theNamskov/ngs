@@ -1,6 +1,3 @@
-setTimeout(
-  () => {
-    console.log('Hello after 4 seconds');
-  },
-  4 * 1000
-);
+let ms = 1000,
+    birthTime = 5;
+setTimeout(() => console.log(`Duration of birth: ${birthTime} seconds`), birthTime*ms);

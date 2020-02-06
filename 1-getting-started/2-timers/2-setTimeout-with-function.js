@@ -1,9 +1,5 @@
-const func = () => {
-  console.log('Hello after 4 seconds');
-};
+const func = delayTime => console.log(`Birth duration: ${delayTime} seconds`),
+      ms = 1000,
+      delay = 3;
 
-setTimeout(func, 4 * 1000);
-
-
-// For: func(arg1, arg2, arg3, ...)
-// We can use: setTimeout(func, delay, arg1, arg2, arg3, ...)
+setTimeout(func, delay*ms, delay);

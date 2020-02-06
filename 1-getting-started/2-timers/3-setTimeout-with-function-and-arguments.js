@@ -1,5 +1,5 @@
-const rocks = who => {
-  console.log(who + ' rocks');
-};
+const dope = who => console.log(`${who} dope!!!`),
+      ms = 1000,
+      delay = 2;
 
-setTimeout(rocks, 2 * 1000, 'Pluralsight');
+setTimeout(dope, delay*ms, 'We');
